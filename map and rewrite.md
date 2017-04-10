@@ -1,0 +1,4 @@
+map功能，顾名思义就是将某个请求进行重定向，用重定向后的内容来响应请求的内容；
+map功能分为map Local和map Remote
+rewrite功能重写对应的内容，主要可以对某些匹配请求的header、host、url、path、query param、response status、body进行rewrite。
+rewrite功能支持正则表达式的写法，这是一个非常有用的功能；例如Math项的value正则式中的组捕获项在Replace的value值中可以使用$1~$n之类的捕获组
